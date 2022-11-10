@@ -1,0 +1,50 @@
+/* Write your code here. */
+.notifications-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.information {
+  background-color: #0b69ff;
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.success {
+  background-color: #2dca73;
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.warning {
+  background-color: #ffb800;
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.error {
+  background-color: #ff0b37;
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  align-self: flex-start;
+  margin-right: 10px;
+}
